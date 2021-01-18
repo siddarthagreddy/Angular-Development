@@ -42,11 +42,15 @@
                         [style.width.px]='imageWidth'
                         [style.margin.px]='imageMargin'>
                     </td>
+<<<<<<< HEAD
                     <td>
                       <a [routerLink]="['/products',product.productId]">
                         {{product.productName}}
                       </a>
                     </td>
+=======
+                    <td>{{product.productName}}</td>
+>>>>>>> 26ac8a94865c969d62e695ff3e836e83b5b08593
                     <td>{{product.productCode |lowercase | convertToSpaces:'-'}}</td>
                     <td>{{product.releaseDate}}</td>
                     <td>{{product.price| currency:'USD':'symbol':'1.2-2'}}</td>
